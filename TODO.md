@@ -9,6 +9,7 @@ Backing sheet: https://docs.google.com/spreadsheets/d/16ygunj4pwHWcBQatmAmXdLV9_
 
 3 recent actual coding projects...
 
+Pomodaro?
 
 ### 4. Solonis Union Starsector (2021)
 
@@ -18,6 +19,10 @@ RPGMaker Game
 ### 6. Battles of the Outer Realms (2014)
 Pay tribute to my oldest work
 
-## Search
+## [x] Search
 Use Google Search
 https://stackoverflow.com/questions/24752806/need-to-add-a-search-to-static-html-site
+
+## Submenu
+- Act as Table of Content for the 2 static HTML pages
+- In case user wants to jump straight to Portfolio, Skills, Etc...
