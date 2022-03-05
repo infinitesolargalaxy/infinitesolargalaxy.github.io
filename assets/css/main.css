@@ -1706,14 +1706,16 @@ button,
             width: 6em; } }
   @media screen and (max-width: 480px) {
     .features article {
-      -moz-flex-direction: column;
+      /* -moz-flex-direction: column;
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       -moz-align-items: -moz-flex-start;
       -webkit-align-items: -webkit-flex-start;
       -ms-align-items: -ms-flex-start;
-      align-items: flex-start; }
+      align-items: flex-start; */
+      column-gap: 1.5rem;
+    }
       .features article .icon {
         height: 6em;
         line-height: 6em;
