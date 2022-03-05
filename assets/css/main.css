@@ -1955,7 +1955,7 @@ button,
         margin-bottom: 0;
         padding-bottom: 0; }
     #sidebar > .inner > .alt {
-      background-color: #eff1f2;
+      background-color: #5E6F7C;
       border-bottom: 0;
       margin: -2.22222em 0 4.44444em -2.22222em;
       padding: 2.22222em;
@@ -2074,6 +2074,18 @@ button,
         position: absolute;
         top: 1em;
         width: 5em; } }
+  @media screen and (max-width: 480px) {
+    #sidebar {
+      width: 80%; }
+    #sidebar > .inner {
+      width: 100%;
+    }
+    #sidebar .toggle {
+      left: 100%;
+    }
+    #sidebar.inactive {
+      margin-left: -80%;
+    } }
 
 /* Header */
 #header {
@@ -2204,6 +2216,14 @@ button,
   #footer .copyright a {
     color: inherit; }
 
+/* Fun Stats */
+.fun-stats {
+  width: 100%;
+}
+.fun-stats > * {
+  width: 100%;
+  padding: 0 0 3.5em 0;
+}
 /* Menu */
 #menu ul {
   -moz-user-select: none;

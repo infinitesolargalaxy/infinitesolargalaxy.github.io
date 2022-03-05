@@ -10,10 +10,14 @@ Backing sheet: https://docs.google.com/spreadsheets/d/16ygunj4pwHWcBQatmAmXdLV9_
 3 recent actual coding projects...
 
 
-### 4. Solonis Union Starsector (2020)
+### 4. Solonis Union Starsector (2021)
 
 ### 5. Adventure in Asera (2017)
 RPGMaker Game
 
 ### 6. Battles of the Outer Realms (2014)
 Pay tribute to my oldest work
+
+## Search
+Use Google Search
+https://stackoverflow.com/questions/24752806/need-to-add-a-search-to-static-html-site
