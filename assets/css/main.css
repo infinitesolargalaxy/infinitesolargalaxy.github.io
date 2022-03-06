@@ -1646,7 +1646,15 @@ button,
       line-height: 10em;
       margin: 0 2em 0 0;
       text-align: center;
-      width: 10em; }
+      width: 10em;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .features article .icon img {
+        /* Recolor any svg: https://codepen.io/sosuke/pen/Pjoqqp */
+        filter: invert(72%) sepia(79%) saturate(175%) hue-rotate(349deg) brightness(95%) contrast(96%);
+        height: 2.75rem;
+      }
       .features article .icon:before {
         color: #EEC390;
         font-size: 2.75rem;
@@ -1698,6 +1706,8 @@ button,
           height: 8em;
           line-height: 8em;
           width: 8em; }
+          .features article .icon img {
+            height: 2.25rem; }
           .features article .icon:before {
             font-size: 2.25rem; }
           .features article .icon:after {
@@ -1721,6 +1731,8 @@ button,
         line-height: 6em;
         margin: 0 0 1.5em 0;
         width: 6em; }
+        .features article .icon img {
+          height: 1.5rem; }
         .features article .icon:before {
           font-size: 1.5rem; }
         .features article .icon:after {
@@ -1728,6 +1740,8 @@ button,
           margin: -2em 0 0 -2em;
           width: 4em; } }
   @media screen and (max-width: 480px) {
+    .features article .icon img {
+      height: 1.25rem; }
     .features article .icon:before {
       font-size: 1.25rem; } }
 
